@@ -17,6 +17,9 @@ class MainActivity : AppCompatActivity() {
         var reset = findViewById<FloatingActionButton>(R.id.reset)
         btn.setOnClickListener {
             sanoq++
+            if (sanoq > 33) {
+                sanoq=0
+            }
             text.setText(sanoq.toString())
             text.text="$sanoq/33"
         }

@@ -9,10 +9,21 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="100dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="jami 0"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:id="@+id/jami"
+        android:onClick="jami"
+        android:layout_margin="50dp"
+        />
+    <TextView
+        android:layout_width="150dp"
         android:layout_height="50dp"
         android:text="0/33"
-        android:textSize="46sp"
+        android:gravity="center"
+        android:textSize="40sp"
         android:id="@+id/text"
         android:layout_margin="50dp"
         />
