@@ -9,15 +9,23 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:text="0/33"
+        android:textSize="46sp"
         android:id="@+id/text"
+        android:layout_margin="50dp"
         />
-    <Button
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="0"
         android:onClick="count"
-        android:id="@+id/count"/>
+        android:id="@+id/count"
+        android:src="@drawable/adder"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/restore"
+        android:layout_margin="50dp"
+        android:id="@+id/reset"/>
 </LinearLayout>
